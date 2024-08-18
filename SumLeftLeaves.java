@@ -1,4 +1,4 @@
-class Solution {
+class SumLeftLeaves {
     public int sumOfLeftLeaves(TreeNode root) {
 
         return dfs(root, false);
